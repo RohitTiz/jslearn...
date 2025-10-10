@@ -6,5 +6,6 @@ import { setupCounter } from './counter.js'
 document.querySelector('#app').innerHTML = `
   <h1> heyy<h1/>
 `
-let huu = "ahh"
-console.log(huu);
+const min = 10 ;
+const max = 20 ;
+console.log(Math.floor(Math.random() *(max-min +1))+min)
