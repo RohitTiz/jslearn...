@@ -16,5 +16,10 @@ document.querySelector('#app').innerHTML = `
 // let myDate = new Date();
 // console.log(myDate.toDateString)
 
-const myArray =[1,2,3,4]
-console.log(myArray[1])
+const jsUser ={
+  name : "rohit",
+  age : 89
+}
+
+console.log(jsUser.name)
+console.log(jsUser["name"])
