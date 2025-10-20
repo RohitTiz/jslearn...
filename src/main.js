@@ -16,10 +16,26 @@ document.querySelector('#app').innerHTML = `
 // let myDate = new Date();
 // console.log(myDate.toDateString)
 
-const jsUser ={
-  name : "rohit",
-  age : 89
+// const jsUser ={
+//   name : "rohit",
+//   age : 89
+// }
+
+// console.log(jsUser.name)
+// console.log(jsUser["name"])
+
+// const Course ={
+
+//   courseName: "julo",
+//   courseInst : "mia"
+
+// }
+
+// const {courseInst} =Course
+// console.log(courseInst)
+
+function saymyname (){
+  console.log("ahhh rohit")
 }
 
-console.log(jsUser.name)
-console.log(jsUser["name"])
+saymyname()
