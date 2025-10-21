@@ -32,10 +32,7 @@ document.querySelector('#app').innerHTML = `
 // }
 
 // const {courseInst} =Course
-// console.log(courseInst)
 
-function saymyname (){
-  console.log("ahhh rohit")
+const myname ={
+  he
 }
-
-saymyname()
