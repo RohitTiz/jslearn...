@@ -6,25 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body style="background-color: #212121; color: #fff;">
-    <div class="parent">
-      <div class="day">monday </div>
-      <div class="day">tuesday</div>
-      <div class="day">thursday </div>
-      <div class="day">friday </div>
-
-    </div>
+  <body id="App" style="background-color: #212121; color: #fff;">
+    <h1 id="app"></h1>
+    <script type="module" src="/main.js"></script>
   </body>
-  <script>  
-  const div =document.createElement('div')
-  console.log(div)
-  div.className= "main"
-  div.id ="og"
-  div.setAttribute("title","generate title")
-  div.style.backgroundColor ="green"
-  div.style.padding="12px"
-  const addtext = document.createTextNode("yo bhaii")
-  div.appendChild(addtext)
-  document.body.appendChild(div)
-  </script>
 </html>
